@@ -1,0 +1,18 @@
+:root{
+    --dark-bg: rgb(34, 47, 44);
+} 
+
+#nav-container, #mb-nav-container{
+background: var(--dark-bg); 
+} 
+
+#nav-container,#brand,.nav-link, .mb-nav-link,.footer-nav-link, small a, small{
+    color: white;
+} 
+
+/* Dark Footer */
+#footer-container{
+    background: var(--dark-bg); 
+} 
+
+

@@ -1,0 +1,26 @@
+:root{
+    --light-bg: #FFFFFF; 
+    --dark-bg: rgb(34, 47, 44);
+} 
+
+#nav-container, #mb-nav-container{
+background: var(--light-bg); 
+}  
+
+
+
+#nav-container,#brand,.nav-link, .mb-nav-link,.footer-nav-link, small a, small{
+    color: var(--dark-bg);
+}  
+
+#mb-hire-btn{
+    color: white;
+}
+#hire-btn{
+    color:white;
+}
+
+/* Dark Footer */
+#footer-container{
+    background: var(--light-bg); 
+} 
