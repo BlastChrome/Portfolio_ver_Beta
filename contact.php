@@ -19,7 +19,7 @@
     <main id="contact-container">  
         <div id="contact-wrap">
             <h1 id="contact-header">Let's get in touch!</h1>
-            <form id="contact-form-container" action="" method="post">
+            <form id="contact-form-container" action="includes/contacts.inc.php" method="post">
                 <div class="contact-form-wrap">
                     <label id="name_label" class="contact-label"  for="name">Name:</label> 
                     <input id="name_input" class="contact-input" type="text" name="name" >
@@ -29,8 +29,8 @@
                     <input id="email_input" class="contact-input" type="email" name="email">
                 </div>
                 <div class="contact-form-wrap">
-                    <label id="name_label" class="contact-label" for="site">Tell me how I can help.</label> 
-                    <textarea rows="10" cols="25" id="message_input" class="contact-input" type="text" name="site"></textarea>
+                    <label id="name_label" class="contact-label" for="proposal">Tell me how I can help.</label> 
+                    <textarea rows="10" cols="25" id="message_input" class="contact-input" type="text" name="proposal"></textarea>
                 </div>
                 <div class="submit-wrap">
                     <button id="submit-btn" name="cSubmit" type="submit">Send</button>

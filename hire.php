@@ -19,7 +19,7 @@
     <main id="contact-container">  
         <div id="contact-wrap">
             <h1 id="contact-header">Let's Collaborate </h1>
-            <form id="contact-form-container" action="" method="post">
+            <form id="contact-form-container" action="includes/hire.inc.php" method="post">
                 <div class="contact-form-wrap">
                     <label id="name_label" class="contact-label"  for="hname">Name:</label> 
                     <input id="name_input" class="contact-input" type="text" name="hname" >
@@ -30,16 +30,16 @@
                 </div>
                 <div class="contact-form-wrap">
                     <label id="pre_contact_label" class="contact-label" for="hcontact">How would you like to stay in touch:</label> 
-                    <input id="epre_contact_input" class="contact-input" type="email" name="hcontact">
+                    <input id="epre_contact_input" class="contact-input" type="text" name="hcontact">
                 </div>
                 <div class="branch-container">
                     <div class="contact-form-wrap">
                         <label id="pre_contact_label" class="contact-label" for="hsite">Your Site:</label> 
-                        <input id="epre_contact_input" class="contact-input" type="email" name="hsite">
+                        <input id="epre_contact_input" class="contact-input" type="text" name="hsite">
                     </div> 
                     <div class="contact-form-wrap">
                         <label id="pre_contact_label" class="contact-label" for="hhear">How did you get here:</label> 
-                        <input id="epre_contact_input" class="contact-input" type="email" name="hhear">
+                        <input id="epre_contact_input" class="contact-input" type="text" name="hhear">
                     </div> 
                 </div> 
                 <div class="contact-form-wrap">
@@ -50,11 +50,11 @@
                 <div class="branch-container">
                     <div class="contact-form-wrap">
                         <label id="pre_contact_label" class="contact-label" for="hprice">Budget:</label> 
-                        <input id="epre_contact_input" class="contact-input" type="email" name="hprice">
+                        <input id="epre_contact_input" class="contact-input" type="text" name="hprice">
                     </div> 
                     <div class="contact-form-wrap">
                         <label id="pre_contact_label" class="contact-label" for="hdate">Preffered Completion Date:</label> 
-                        <input id="epre_contact_input" class="contact-input" type="email" name="hdate">
+                        <input id="epre_contact_input" class="contact-input" type="text" name="hdate">
                     </div> 
                 </div>               
                 <div class="contact-form-wrap">

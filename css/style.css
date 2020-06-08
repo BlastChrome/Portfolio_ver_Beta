@@ -220,7 +220,8 @@ small{
     border-radius: .5rem; 
     background: var(--form-inner); 
     box-shadow: var(--nav-shadow); 
-    border: none;
+    border: none; 
+    font-size: 1.5rem;
 } 
 textarea{
     resize: none;
@@ -240,6 +241,7 @@ textarea{
 } 
 
 #proj-header-text-2{
+    color: var(--Deep-blue);
     font-size: 1.3rem;
 }
 
