@@ -82,7 +82,7 @@ display: none;
     margin-bottom: 1.0rem;   
 }  
 .footer-nav-link{
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
 small{
     font-size: 0.6rem;
@@ -248,7 +248,7 @@ textarea{
 /* !Contact */
 
 /* Media queries */
-@media screen and (min-width: 778px){
+@media screen and (min-width: 785px){
     #brand{
         font-size: 1.8rem;
     }

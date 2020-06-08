@@ -4,4 +4,6 @@ let mb_nav = document.getElementById('mb-nav-container');
 
 hambergur.addEventListener("click", function(){
     mb_nav.classList.toggle("Gone");
-})
+}) 
+
+
