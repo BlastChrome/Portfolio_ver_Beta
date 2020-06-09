@@ -146,6 +146,7 @@ small{
     align-items: center; 
     flex-direction: column;
     padding-top: 1rem;     
+    margin-top: 3rem;
     
 } 
 #about-header-text-1{
@@ -165,13 +166,15 @@ small{
 #about-wrap{
     margin-top:1px;
     width: 85%;
+    text-align: center;
 } 
 
 .about-item{
     margin-top: 3rem;  
 }  
 .about-item-header-text-1{
-    font-size: 2.8rem;
+    font-size: 2.8rem; 
+    margin-bottom: 1.5rem;
 } 
 .about-item-header-text-2{
     margin-bottom: 1rem;;
@@ -190,7 +193,8 @@ small{
 
 /* Contact */  
 #contact-header{
-    font-size: 2.6rem; 
+    text-align: center;
+    font-size: 3.0rem; 
     margin-top: 4.5rem;
 }
 
@@ -332,7 +336,8 @@ textarea{
         font-size: 3.0rem;
     } 
     #about-wrap{
-        width: 65%;
+        width: 65%; 
+        text-align: left;
     } 
 
     #contact-header{
@@ -341,12 +346,17 @@ textarea{
     #contact-wrap{
         width: 60%;
     } 
+    .contact-form-wrap{
+        /* margin-right: 3rem; */
+    }
     .branch-container{ 
         justify-content: space-between;
+        margin: auto;
         display: flex; 
         flex-direction: row; 
         width: 100%;
     } 
+
 
     #proj-header-text-2{
         font-size: 1.5rem;

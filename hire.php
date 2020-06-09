@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="css/style.css">  
-    <link rel="stylesheet" href="css/light-nav.css">  
+    <link rel="stylesheet" href="css/dark-nav.css">  
     <!-- imported from google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
     <!-- imported from fontawesome to use icons -->
@@ -53,7 +53,7 @@
                         <input id="epre_contact_input" class="contact-input" type="text" name="hprice">
                     </div> 
                     <div class="contact-form-wrap">
-                        <label id="pre_contact_label" class="contact-label" for="hdate">Preffered Completion Date:</label> 
+                        <label id="pre_contact_label" class="contact-label" for="hdate">Completion Date:</label> 
                         <input id="epre_contact_input" class="contact-input" type="text" name="hdate">
                     </div> 
                 </div>               

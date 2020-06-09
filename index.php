@@ -19,7 +19,7 @@
     <main id="banner-container">
         <div id="banner-wrap">
             <h1>Web Developer</h1> 
-            <a href="" id="action-call">Lets Go</a>
+            <a href="about.php" id="action-call">Lets Go</a>
         </div>
     </main> 
     <!-- Footer Include --> 
