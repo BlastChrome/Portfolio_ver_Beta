@@ -245,10 +245,71 @@ textarea{
     font-size: 1.3rem;
 }
 
-/* !Contact */
+/* !Contact */ 
+
+/* Services */ 
+#services-header{
+    margin: 5rem; 
+    font-size: 3.4rem;
+}
+
+#services-wrap{
+    text-align: center;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%; 
+    margin: auto; 
+    /* background: green; */
+} 
+
+.services-items-container{
+    width: 100%; 
+    background: #e5e5e5;
+    box-shadow: var(--footer-shadow);
+    margin: auto; 
+    border-radius: 7px; 
+    margin-bottom: 7rem;
+
+}  
+
+.services-item-1-container img{
+    margin-top: 3rem;
+    width: 90px; 
+    height: 90px;
+} 
+
+.services-item-2-container{ 
+    color: var(--dark-bg);
+    text-align: center;
+}  
+
+.services-text-container{
+    margin-bottom: 2rem;
+}
+.services-header-text-1{
+    font-size: 2.8rem;
+}
+.services-header-text-2{
+    font-size: 1.8rem;
+    color: var(--Deep-blue);
+} 
+.services-body-text{
+    font-size: 1.6rem;
+    margin: auto;
+    max-width: 95%; 
+
+} 
+#contact-link{
+    color: var(--Deep-blue);
+}
+
+
+/* !Services */
 
 /* Media queries */
-@media screen and (min-width: 785px){
+@media screen and (min-width: 785px){ 
     #brand{
         font-size: 1.8rem;
     }
@@ -289,7 +350,45 @@ textarea{
 
     #proj-header-text-2{
         font-size: 1.5rem;
+    }  
+    .services-items-container{
+        min-height: 56vh;
+        width: 75%;
+        display: flex;
+        justify-content: center; 
+        text-align: left; 
+        padding-bottom: 7rem;
+    } 
+    .services-item-1-container{
+        margin-right: 2.5rem;
+        /* display: flex; 
+        background: red; 
+        justify-content: center; */
+    } 
+    .services-item-1-container img{
+        height: 225px; 
+        width: 225px;
     }
+
+
+    .services-item-2-container{
+        margin-top: 3rem;
+        width: 44%; 
+        text-align: left; 
+        line-height: 2.0; 
+
+    } 
+
+    #services-wrap{
+        text-align: left;
+    } 
+    #services-header{
+        text-align: left;
+    }
+    .services-body-text{
+        max-width: 100%;
+    }
+
 
     #footer-container{
         padding: 2rem;
