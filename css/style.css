@@ -34,7 +34,7 @@
     display: flex;
 }
 #nav-wrap{
-    min-height: 10vh;
+    min-height: 12vh;
     width: 85%;  
     display: flex;
     justify-content: space-between; 
@@ -85,7 +85,7 @@ display: none;
     margin-bottom: 1.0rem;   
 }  
 .footer-nav-link{
-    font-size: .9rem;
+    font-size: .8rem;
 }
 small{
     font-size: 0.6rem;
@@ -321,16 +321,26 @@ textarea{
     }
     .hamburger-wrap{
         display: none;
-    }
-    #nav-links{
-        display: flex; 
-        justify-content: space-between;  
-        font-size: 4rem;  
+    } 
+
+
+    #nav-links{ 
+        display: flex;
+        justify-content: space-between;   
+        align-items: flex-start;
+        font-size: 4rem;   
+        height: 80%;
     } 
     .nav-link{
         margin-left: 2rem;
-        font-size: 1.2rem;
-    } 
+        font-size: 1.2rem; 
+        text-align: center;
+    }  
+    li{
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
     #banner-container{
         font-size: 3.0rem;
     } 
@@ -411,8 +421,8 @@ textarea{
         font-size: 2rem; 
     } 
     .footer-nav-link{
-        margin-left: 3rem; 
-
+        margin-left: 3rem;  
+        font-size: 1.5rem;
     } 
     small{
         font-size: 1rem;
