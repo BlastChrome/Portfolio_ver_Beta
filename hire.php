@@ -34,7 +34,7 @@
                 </div>
                 <div class="branch-container">
                     <div class="contact-form-wrap">
-                        <label id="pre_contact_label" class="contact-label" for="hsite">Your Site:</label> 
+                        <label id="pre_contact_label" class="contact-label" for="hsite">Your Site:(Url)</label> 
                         <input id="epre_contact_input" class="contact-input" type="text" name="hsite">
                     </div> 
                     <div class="contact-form-wrap">

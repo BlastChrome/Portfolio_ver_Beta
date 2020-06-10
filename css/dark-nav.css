@@ -6,7 +6,7 @@
 background: var(--dark-bg); 
 } 
 
-#nav-container,#brand,.nav-link, .mb-nav-link,.footer-nav-link, small a, small{
+#nav-container,#brand,.nav-link, .mb-nav-link,.footer-nav-link, small a, small, #nav-btn{
     color: white;
 } 
 

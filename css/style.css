@@ -22,7 +22,10 @@
 #brand{
     font-size: 1.8rem;
 }
-
+#nav-btn{
+    height: 35px; 
+    width: 35px;
+}
 #nav-container{
     box-shadow: var(--nav-shadow);
     
