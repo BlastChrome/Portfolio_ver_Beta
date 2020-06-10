@@ -1,7 +1,8 @@
-06/07/20 
+06/09/20 
 
 Ok So Figma is a literal lifesaver 
-Being able to map out design in advance is LLITERALLY the difference lmao  
+Being able to map out design in advance is LITERALLY the difference lmao  
 
-TODO - Implement Services page 
-TODO - fully adapt php forms
+DONE - Implement Services page 
+DONE - fully adapt php forms 
+
