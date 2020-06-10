@@ -25,7 +25,7 @@ if(isset($_POST['cSubmit'])){
     //insert data into database using prepared statements 
     else{
         // insert user into the database 
-        $sql = "INSERT INTO contact (cName, cEmail, cMessage) VALUES (?, ?, ?);";
+        $sql = "INSERT INTO contact (cName, cEmail, cProposal) VALUES (?, ?, ?);";
 
         //create prepared statement 
         $stmt = mysqli_stmt_init($conn);   

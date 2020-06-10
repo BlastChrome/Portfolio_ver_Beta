@@ -345,9 +345,7 @@ textarea{
     #contact-wrap{
         width: 60%;
     } 
-    .contact-form-wrap{
-        /* margin-right: 3rem; */
-    }
+
     .branch-container{ 
         justify-content: space-between;
         margin: auto;
