@@ -265,13 +265,12 @@ textarea{
     flex-direction: column;
     width: 85%; 
     margin: auto; 
-    /* background: green; */
 } 
 
 .services-items-container{
     width: 100%; 
     background: #e5e5e5;
-    box-shadow: var(--footer-shadow);
+    box-shadow: var(--nav-shadow);
     margin: auto; 
     border-radius: 7px; 
     margin-bottom: 7rem;
@@ -305,10 +304,10 @@ textarea{
     max-width: 95%; 
 
 } 
+
 #contact-link{
     color: var(--Deep-blue);
 }
-
 
 /* !Services */
 

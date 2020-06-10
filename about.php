@@ -21,7 +21,6 @@
             <div id="about-header" > 
                 <img src="imgs/RegrettablePhoto.jpg" id="about-img" alt="smug-image-of-me">
                 <h1 id="about-header-text-1">About Nick</h1> 
-                <p id="about-header-text-2">My History</p>
             </div>
             <div class="about-item"> 
                 <h1 class="about-item-header-text-1">Who I Am.</h1> 
