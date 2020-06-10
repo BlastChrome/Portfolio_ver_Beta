@@ -29,7 +29,7 @@
                     <input id="email_input" class="contact-input" type="email" name="email">
                 </div>
                 <div class="contact-form-wrap">
-                    <label id="name_label" class="contact-label" for="proposal">Tell me how I can help.</label> 
+                    <label id="name_label" class="contact-label" for="proposal">Message</label> 
                     <textarea rows="10" cols="25" id="message_input" class="contact-input" type="text" name="proposal"></textarea>
                 </div>
                 <div class="submit-wrap">
