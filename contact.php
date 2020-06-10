@@ -18,7 +18,7 @@
     <!-- Main body of contact -->
     <main id="contact-container">  
         <div id="contact-wrap">
-            <h1 id="contact-header">Let's get in touch!</h1>
+            <h1 id="contact-header">Let's get in touch</h1>
             <form id="contact-form-container" action="includes/contacts.inc.php" method="post">
                 <div class="contact-form-wrap">
                     <label id="name_label" class="contact-label"  for="name">Name:</label> 

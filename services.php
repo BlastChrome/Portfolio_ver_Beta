@@ -20,7 +20,7 @@
         <div id="services-wrap">
 
         <!-- Header -->
-            <h1 id="services-header">My Services</h1> 
+            <h1 id="services-header">My services</h1> 
 
         <!-- Card 1-->
             <div class="services-items-container" id="web-design-container"> 
@@ -63,7 +63,7 @@
         <!-- Card 3 -->
             <div class="services-items-container" id="customer-service-container"> 
                  <div class="services-item-1-container" id="customer-service-img">  
-                    <img src="imgs/007-support.png" alt="img-layout">
+                    <img src="imgs/007-support.png" alt="img-support">
                  </div>
                  <div class="services-item-2-container" id="customer-service-text">
                      <div class="services-text-container">                         

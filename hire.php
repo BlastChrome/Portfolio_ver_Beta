@@ -18,7 +18,7 @@
     <!-- Main body of hire -->
     <main id="contact-container">  
         <div id="contact-wrap">
-            <h1 id="contact-header">Let's Collaborate </h1>
+            <h1 id="contact-header">Let's collaborate </h1>
             <form id="contact-form-container" action="includes/hire.inc.php" method="post">
                 <div class="contact-form-wrap">
                     <label id="name_label" class="contact-label"  for="hname">Name:</label> 

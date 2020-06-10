@@ -1,7 +1,7 @@
 /* Globals */
 :root{
-    --dark-bg: #222F2C;
-    --film-layer: rgba(41, 34, 27, .65);  
+    --dark-bg: #222F2C; 
+    --film-layer: rgba(34, 47, 44, .65);  
     --Deep-blue: #00AAFF; 
     --form-inner: #EEEEEE; 
     --nav-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
@@ -162,7 +162,9 @@ small{
 #about-img{
     width: 132px; 
     height: 121px;  
-    border-radius: 360px;
+    /* border-radius: 360px; */ 
+    border-radius: 1rem; 
+    box-shadow:var(--nav-shadow);
 
 }
 
