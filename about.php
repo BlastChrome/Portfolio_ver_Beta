@@ -24,7 +24,7 @@
             </div>
             <div class="about-item"> 
                 <h1 class="about-item-header-text-1">Who I Am.</h1> 
-                <p class="about-item-header-text-2">My name’s Nick, a self taught web developer from Hawthorne CA.  </p>
+                <p class="about-item-header-text-2">My name’s Nick, an innovative web developer from Hawthorne CA.  </p>
                 <p class="about-item-header-text-2">In between building projects I’m currently persuing a degree in CS from Elcamino College in Torrance.  </p>
             </div>
             <div class="about-item"> 
