@@ -20,7 +20,7 @@
 
 /* Navigation */
 #brand{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 #nav-btn{
     height: 35px; 
@@ -350,7 +350,12 @@ textarea{
     #about-wrap{
         width: 65%; 
         text-align: left;
-    } 
+    }  
+    #about-img-container{
+        width: 100%; 
+        display: flex; 
+        justify-content: space-between;
+    }
 
     #contact-header{
         text-align: center; 

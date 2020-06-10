@@ -35,10 +35,10 @@
             <div class="about-item"> 
                 <h1 class="about-item-header-text-1">Skills: </h1> 
                 <div id="about-img-container">
-                    <img src="imgs/001-html.png" class="about-body-img" alt="smug-image-of-me"> 
-                    <img src="imgs/004-php.png" class="about-body-img" alt="smug-image-of-me"> 
-                    <img src="imgs/003-javascript.png" class="about-body-img" alt="smug-image-of-me"> 
-                    <img src="imgs/002-css.png" class="about-body-img" alt="smug-image-of-me">                     
+                    <img src="imgs/001-html.png" class="about-body-img" alt="html-img"> 
+                    <img src="imgs/002-css.png" class="about-body-img" alt="css-img">                     
+                    <img src="imgs/003-javascript.png" class="about-body-img" alt="js-img"> 
+                    <img src="imgs/004-php.png" class="about-body-img" alt="php-img"> 
                 </div>
             </div>
         </div>
