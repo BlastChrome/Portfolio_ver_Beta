@@ -18,8 +18,8 @@
     <!-- Main body of home -->
     <main id="banner-container">
         <div id="banner-wrap">
-            <h1>Web Developer</h1> 
-            <a href="about.php" id="action-call">Lets Go</a>
+            <h1 id="banner-text-1">Web Developer</h1> 
+            <a  href="about.php" id="action-call">Lets Go</a>
         </div>
     </main> 
     <!-- Footer Include --> 

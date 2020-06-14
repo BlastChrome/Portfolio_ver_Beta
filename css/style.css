@@ -36,6 +36,7 @@
 #nav-wrap{
     min-height: 12vh;
     width: 85%;  
+    max-width: 1125px;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
@@ -106,13 +107,17 @@ small{
  
 #banner-wrap{
     display: flex; 
-    justify-content: center; 
+    justify-content: flex-start;  
     align-items: center; 
     flex-direction: column;
     width: 100%; 
     height: 100%;
     background: var(--film-layer);
 } 
+#banner-text-1{
+    margin-top: 5rem;
+}
+
 #hire-btn, #mb-hire-btn, #submit-btn{
     background: var(--Deep-blue);  
     border-radius: 0.5rem;  
@@ -171,7 +176,8 @@ small{
 #about-wrap{
     margin-top:1px;
     width: 85%;
-    text-align: center;
+    text-align: center; 
+    max-width: 1125px;
 } 
 
 .about-item{
@@ -268,7 +274,8 @@ textarea{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 85%; 
+    width: 85%;  
+    max-width:1125px;
     margin: auto; 
 } 
 
@@ -312,6 +319,9 @@ textarea{
 
 #contact-link{
     color: var(--Deep-blue);
+} 
+#contact-wrap{
+    max-width: 1125px;
 }
 
 /* !Services */
@@ -342,6 +352,12 @@ textarea{
         display: flex; 
         justify-content: center; 
         align-items: center;
+    }
+    #banner-wrap{
+        justify-content: center;
+    } 
+    #banner-text-1{
+        margin: 0;
     }
     #banner-container{
         font-size: 3.0rem;

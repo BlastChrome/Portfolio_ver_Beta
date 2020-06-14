@@ -7,7 +7,8 @@ if(isset($_POST['cSubmit'])){
     //taking user input from forms; assigning data to variables
     $contactName = $_POST['name'];
     $contactEmail = $_POST['email'];
-    $contactMessage = $_POST['proposal'];   
+    $contactMessage = $_POST['proposal'];    
+
 
     // Error Handlers 
     //checks if the user left an input empty(html includes required fields but that's not enough)
@@ -40,10 +41,26 @@ if(isset($_POST['cSubmit'])){
             mysqli_stmt_execute($stmt); 
             header("Location: ../contact.php?contact=success"); 
             exit(); 
-        }
+        } 
+
+
     } 
+    // Close the database connection
     mysqli_stmt_close($stmt); 
-    mysqli_close($conn);
+    mysqli_close($conn); 
+
+    // Send email information 
+    $to = "nicholas_jackson4400@elcamino.edu, nicdogg360@gmail.com"; 
+    $email_subject = "New Form Submission!"; 
+    $email_body = "You have received an email from $contactName.\n". 
+    "Here is the message:\n $contactMessage"; 
+
+    $send = mail($to,$email_subject,$email_body);   
+    if(!send){
+        header("Location: ..contact.php?error=messageerror");
+        exit();
+    }
+
 } 
 // Sends the user back to the contact page, if they access the php file w/o pressing submit
 else{
