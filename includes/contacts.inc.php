@@ -36,11 +36,26 @@ if(isset($_POST['cSubmit'])){
             header("Location: ../contact.php?error=sqlerror"); 
             exit(); 
         }  else{
-            // finallly send data to database
+            // finallly send data to database and email
             mysqli_stmt_bind_param($stmt, "sss", $contactName,$contactEmail, $contactMessage); 
-            mysqli_stmt_execute($stmt); 
+            mysqli_stmt_execute($stmt);   
+
+            // Send email information 
+            $to = "nicdogg360@gmail.com"; 
+            $subject = "New Form Submission!"; 
+             $message = "You have received an email from $contactName.\n". 
+                            "Here is the message:\n $contactMessage";  
+            $from = "nicholasjackson.rf.gd";
+            $headers = "From: " . $from;
+            $send = mail($to, $subject, $message, $headers);
+            if(!send){
+                header("Location: ../contact.php?error=messageerror");
+                exit();
+            }else{
+
             header("Location: ../contact.php?contact=success"); 
             exit(); 
+            }; 
         } 
 
 
@@ -48,19 +63,7 @@ if(isset($_POST['cSubmit'])){
     // Close the database connection
     mysqli_stmt_close($stmt); 
     mysqli_close($conn); 
-
-    // Send email information 
-    $to = "nicholas_jackson4400@elcamino.edu, nicdogg360@gmail.com"; 
-    $email_subject = "New Form Submission!"; 
-    $email_body = "You have received an email from $contactName.\n". 
-    "Here is the message:\n $contactMessage"; 
-
-    $send = mail($to,$email_subject,$email_body);   
-    if(!send){
-        header("Location: ..contact.php?error=messageerror");
-        exit();
-    }
-
+ 
 } 
 // Sends the user back to the contact page, if they access the php file w/o pressing submit
 else{
